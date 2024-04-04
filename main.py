@@ -47,7 +47,7 @@ class Platform:
         self.width = width
         self.height = height
         self.color = color
-        self.pos = pos
+        self.pos = pos 
     
     def draw(self):
         drawPos = self.pos + pg.Vector2(0, gameHeight)
